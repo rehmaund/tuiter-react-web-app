@@ -35,7 +35,7 @@
 .wd-col{
     display: inline;
     font-size: 12px;
-    font-family: Arial;
+    font-family: sans-serif, Arial;
     color: rgb(110, 118, 125);
     padding: 16px;
     height: 40px;
@@ -45,7 +45,7 @@
 .wd-col-selected{
     display: inline;
     font-size: 12px;
-    font-family: Arial;
+    font-family: sans-serif, Arial;
     color: rgb(29,161,242);
     padding: 16px;
     height: 40px;
@@ -69,4 +69,86 @@
     border-bottom-width: medium;
     border-bottom-color: rgb(110, 118, 125);
     padding-bottom: 16px;
+}
+
+.wd-hr-blue {
+    z-index: 10;
+    position: relative;
+    left: 12px;
+    top: -14px;
+    width: 50px;
+    margin-inline-start: 0;
+    border: thin solid rgb(29,161,242);
+}
+
+.wd-filler-div {
+    border-width: thin;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    background-color: #343a40;
+    height: 20px;
+    position: relative;
+    top: -20px;
+}
+
+.wd-3dots-white {
+    float: right;
+    display: inline;
+    color: white;
+    padding-right: 12px;
+    font-size: 30px;
+    padding-top: -40px;}
+
+.wd-3dots-gray-1 {
+    float: right;
+    display: inline;
+    position: relative;
+    color: rgb(110, 118, 125);
+    padding-right: 12px;
+    font-size: 30px;
+    padding-top: -20px;
+    top: -14px;}
+
+.wd-3dots-gray-2 {
+    float: right;
+    display: inline;
+    position: relative;
+    color: rgb(110, 118, 125);
+    padding-right: 12px;
+    font-size: 30px;
+    padding-top: -20px;
+    top: -50px;}
+
+.wd-small-text-top {
+    margin-inline-start: 0;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-family: sans-serif, Arial;
+    padding-top: 16px;
+    padding-left: 12px;
+}
+
+.wd-small-text {
+    margin-inline-start: 0;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-family: sans-serif, Arial;
+    padding-left: 12px;
+}
+
+.wd-large-text {
+    margin-inline-start: 0;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif, Arial;
+    padding-top: 0px;
+    padding-left: 12px;
+}
+
+.wd-trending-row {
+    border-width: thin;
+    border-style: solid;
+    border-color: rgb(110, 118, 125);
+    position: relative;
+    top: -20px;
 }
