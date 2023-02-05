@@ -206,6 +206,291 @@ p#id-selector-2 {
     float: left;
 }
 
+.rotate-list {
+    transform: rotate(12deg);
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+
+.rotate-image {
+    transform: rotate(-10deg);
+}
+
+.rotate-table {
+    position: relative;
+    left: 50px;
+    transform: rotate(15deg);}
+.rotate-table tr:nth-child(1) {
+    background-color: black;
+    color: white;}
+.rotate-table tr:nth-child(n+2) {
+    background-color: yellow;}
+.rotate-table tr:nth-child(n+5) {
+    background-color: blue;
+    color: white;}
+.rotate-table tr:nth-child(n+8) {
+    background-color: red;}
+.rotate-table tr:nth-child(n+11) {
+    background-color: green;
+    color: white;
+}
+.gradients-linear {
+    background: linear-gradient(blue, purple);
+    width: 200px;
+    height: 200px;
+}
+
+gradients-radial {
+    background: radial-gradient(red, green);
+    width: 200px;
+    height: 200px;
+}
+
+.gradients-positioned {
+    background:
+            radial-gradient(
+                    at bottom right, orange, purple);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.animation-keyframes-1 {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein-1;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
+
+@keyframes slidein-1 {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        color: black;
+    }
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 300%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+
+.animation-keyframes-2 {
+    position: absolute;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein-2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color: black;
+}
+
+@keyframes slidein-2 {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        color: black;
+    }
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 300%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+.flex-box {
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
+}
+.flex-box-1 {
+    background-color: lightcoral;
+}
+.flex-box-2 {
+    background-color: rebeccapurple;
+    color: white;
+}
+.flex-box-3 {
+    background-color: darkred;
+    color: white;
+}
+
+
+
+.flex-container-1 {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flex-container-2 {
+    border-width: 1px;
+    border-color: orangered;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-container-3 {
+    border-width: 8px;
+    border-color: mediumpurple;
+    border-style: double;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+}
+
+.flex-container-3 > .flex-box {
+    flex-basis: 100%;
+}
+
+.flex-container-4 {
+    border-width: 5px;
+    border-color: blue;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-5 {
+    border-width: 10px;
+    border-color: yellow;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
+}
+
+.flex-container-6 {
+    border-width: 2px;
+    border-color: green;
+    border-style: dashed;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container-7 {
+    border-width: 5px;
+    border-color: gray;
+    border-style: dot-dash;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container-7 > .flex-box {
+    flex-basis: 100%;
+}
+
+@media (min-width: 0px)
+and (max-width: 600px) {
+    body {
+        background-color: purple;
+    }
+    .media-query {
+        background-color: orchid;
+        color: yellow;
+    }
+}
+@media (min-width: 600px)
+and (max-width: 1200px) {
+    body {
+        background-color: white;
+        color: white;
+    }
+    .media-query {
+        background-color: yellow;
+        color: rebeccapurple;
+    }
+}
+@media (min-width: 1200px)
+and (max-width: 1800px) {
+    body {
+        background-color: white;
+        color: coral;
+    }
+    .media-query {
+        background-color: mediumseagreen;
+        color: red;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
