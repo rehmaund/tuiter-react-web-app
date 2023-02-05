@@ -1,0 +1,72 @@
+.wd-general {
+    padding-left: 16px;
+    background-color: black;
+}
+
+.wd-fg-color-lightgray { color: rgb(110, 118, 125); }
+
+.wd-bg-color-gray { background-color: #343a40; border: 0; outline: 0;}
+
+::placeholder {
+    color: #6c757d;
+    opacity: 1;
+    font-size: 90%;
+
+}
+
+.wd-margin-all-around {
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.wd-search-dim {
+    width: 380px;
+    height: 25px
+}
+.wd-rounded { border-radius: 20px;}
+
+.wd-placeholder-padding { padding-left: 45px;}
+
+.wd-float-icon { float: left;  z-index: 10; position: relative; left: 35px; top: 22px;}
+
+.wd-blue-gear { float: right; display: inline; color: rgb(29,161,242); padding-right: 12px; font-size: 40px; padding-top: 8px;}
+
+.wd-col{
+    display: inline;
+    font-size: 12px;
+    font-family: Arial;
+    color: rgb(110, 118, 125);
+    padding: 16px;
+    height: 40px;
+
+}
+
+.wd-col-selected{
+    display: inline;
+    font-size: 12px;
+    font-family: Arial;
+    color: rgb(29,161,242);
+    padding: 16px;
+    height: 40px;
+
+}
+
+.wd-hr-format {
+    color: rgb(110, 118, 125);
+    height: 1px;
+
+}
+
+.wd-div-boxes {
+    border-left-width: thin;
+    border-style: solid;
+    border-left-color: rgb(110, 118, 125);
+    border-right-width: thin;
+    border-right-color: rgb(110, 118, 125);
+    border-top-width: thin;
+    border-top-color: rgb(110, 118, 125);
+    border-bottom-width: medium;
+    border-bottom-color: rgb(110, 118, 125);
+    padding-bottom: 16px;
+}
