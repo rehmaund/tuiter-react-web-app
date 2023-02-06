@@ -1,0 +1,42 @@
+.wd-general {
+    padding-left: 16px;
+    background-color: black;
+}
+
+.wd-color-black {
+    background-color: black;
+}
+.wd-div-boxes {
+    border-left-width: thin;
+    border-style: solid;
+    border-left-color: rgb(110, 118, 125);
+    border-right-width: thin;
+    border-right-color: rgb(110, 118, 125);
+    border-top-width: thin;
+    border-top-color: rgb(110, 118, 125);
+    border-bottom-width: thin;
+    border-bottom-color: rgb(110, 118, 125);
+
+}
+
+.wd-div-box-padding {
+    padding-bottom: 16px;
+}
+
+.wd-small-text {
+    margin-inline-start: 0;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-family: sans-serif, Arial;
+    padding-left: 12px;
+}
+
+.wd-large-text {
+    margin-inline-start: 0;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif, Arial;
+    padding-top: 0px;
+    padding-left: 12px;
+}
+
