@@ -447,7 +447,7 @@ and (max-width: 600px) {
 and (max-width: 1200px) {
     body {
         background-color: white;
-        color: white;
+        color: black;
     }
     .media-query {
         background-color: yellow;
