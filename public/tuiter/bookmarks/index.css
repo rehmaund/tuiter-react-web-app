@@ -131,7 +131,7 @@
     color: lightgray;
     display: inline;
     font-size: 16px;
-    padding-right: 75px;
+    padding-right: 58px;
     padding-left: 12px;
 }
 
@@ -139,9 +139,12 @@
     color: red;
     display: inline;
     font-size: 16px;
-    padding-right: 75px;
+    padding-right: 58px;
     padding-left: 12px;
-    background-color: red;
+}
+
+.wd-red {
+    color: red;
 }
 
 .wd-move-up-10{
@@ -202,5 +205,6 @@
 }
 
 .wd-pad-80-left {
-    padding-left: 62px;
+    display: inline;
+    padding-left: 26px;
 }
