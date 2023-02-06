@@ -127,6 +127,23 @@
 
 }
 
+.wd-gray-icon {
+    color: lightgray;
+    display: inline;
+    font-size: 16px;
+    padding-right: 75px;
+    padding-left: 12px;
+}
+
+.wd-red-icon {
+    color: red;
+    display: inline;
+    font-size: 16px;
+    padding-right: 75px;
+    padding-left: 12px;
+    background-color: red;
+}
+
 .wd-move-up-10{
     position: relative;
     top: -10px;
@@ -152,6 +169,11 @@
     top: -41px;
 }
 
+.wd-move-up-30 {
+    position: relative;
+    top: -30px;
+}
+
 .wd-article-image {
     width: 504px;
     height: 264px;
@@ -169,4 +191,16 @@
 
 .wd-pad-12 {
     padding-top: 12px;
+}
+
+.wd-icon-layout {
+
+}
+
+.wd-pad-right-12 {
+    padding-right: 12px;
+}
+
+.wd-pad-80-left {
+    padding-left: 62px;
 }
