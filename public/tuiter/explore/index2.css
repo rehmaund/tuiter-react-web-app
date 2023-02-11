@@ -1,0 +1,49 @@
+.wd-remove-hyperlink-style{
+    text-decoration:none;
+}
+
+.wd-color-black{
+    color: black;
+}
+
+.wd-color-white{
+    color: white;
+}
+
+.wd-inline{
+    display: inline;
+}
+
+.wd-move-left-4{
+    position: relative;
+    left: -4px;
+}
+
+.wd-text-centered{
+    text-align: center;
+}
+
+.wd-align-left{
+    align-content: left;
+}
+
+.wd-rounded{
+    border-radius: 40px;
+}
+
+.wd-draw-later{
+    z-index: 10;
+}
+
+.wd-move-left{
+    position: relative;
+    left: -520px;
+}
+
+.wd-width-80pc{
+    width: 80%;
+}
+
+.wd-width-100pc{
+    width: 100%;
+}
