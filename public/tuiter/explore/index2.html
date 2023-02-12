@@ -35,15 +35,16 @@
 
         </div>
 
-        <div class="col mb-3 pt-4 d-none d-md-block col-md-6 col-xxl-6 wd-rounded">
-            <div class="input-group wd-rounded" id="input-container">
-                <i class="fa-solid fa-magnifying-glass wd-draw-later wd-align-left wd-border-none"></i>
+        <div class="col mb-3 pt-4 d-none d-md-block col-md-6 col-xxl-6 wd-rounded me-0">
+            <div class="input-group wd-rounded w-75 col-12" id="input-container">
+            <i class="fa-solid fa-magnifying-glass wd-draw-later wd-align-left wd-border-none wd-rounded"></i>
                 <input type="text"
-                       class="form-control py-2 ps-5 wd-rounded wd-inline wd-width-80pc"
-                       id="search"
+                       class="form-control py-2 ps-5 wd-rounded wd-inline w-75 d-width-80pc"
+                       id="search-bar"
                        placeholder="Search Tuiter">
-
             </div>
+                <i class="fa-solid fa-gear wd-move-left-4 wd-float-right wd-move-up-gear fa-2x p-2 wd-color-blue"></i>
+
             <ul class="nav nav-tabs pt-2">
                 <li class="nav-item">
                     <a class="nav-link active" href="#">For You</a>
@@ -61,11 +62,12 @@
                     <a class="nav-link" href="#" tabindex="-1">Entertainment</a>
                 </li>
             </ul>
-                <image src="../images/starship.jpg" class="pt-2 pb-0 wd-width-100pc m-0 wd-container-align"></image>
-                <div class="wd-photo-text ps-3 wd-inline">SpaceX's Starship</div>
+            <div class="me-3 mb-0 mt-0">
+                <image src="../images/starship.jpg" class="pt-2 pb-0 wd-width-100pc wd-container-align me-5"></image></div>
+                <div class="wd-photo-text wd-inline">SpaceX's Starship</div>
 
-            <div class="container wd-container-align pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc">
-            <div class="wd-article-box row">
+            <div class="container wd-container-align me-5 pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc wd-move-up-articles">
+            <div class="wd-article-box row me-3 wd-pad-12">
                 <div class="col-10 wd-text-soft-gray pt-2">
                 Web Development
                     <p id="article-text" class="wd-text-soft-gray"><b class="wd-color-black pt-2">ReactJS&nbsp;</b><i class="fa-solid fa-circle-check wd-color-black"></i> - 2h</p>
@@ -78,8 +80,8 @@
         </div>
 
 
-            <div class="container wd-container-align px-2 pr-4 m-0 pb-0 pt-0">
-                <div class="wd-article-box row" width="100%">
+            <div class="container wd-container-align px-2 pr-4 m-0 pb-0 pt-0 wd-move-up-articles">
+                <div class="wd-article-box row me-3" width="100%">
                     <div class="col-10 wd-text-soft-gray pb-2">
                         <p id="article-text" class="wd-text-soft-gray pt-2"><b class="wd-color-black">JavaScript&nbsp;</b><i class="fa-solid fa-circle-check wd-color-black"></i> - 2h</p>
                         <p id="article-text" class="wd-color-black"><b>JavaScript is a programming language that can run on browsers as well as desktops</b></p>
@@ -92,8 +94,8 @@
             </div>
 
 
-            <div class="container wd-container-align pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc">
-                <div class="wd-article-box row">
+            <div class="container wd-container-align pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc wd-move-up-articles">
+                <div class="wd-article-box row me-3">
                     <div class="col-10 wd-text-soft-gray pt-2 pb-2">
                         Web Development
                         <p id="article-text" class="wd-text-soft-gray"><b class="wd-color-black pt-2">jQuery</b></p>
@@ -106,8 +108,8 @@
             </div>
 
 
-            <div class="container wd-container-align pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc">
-                <div class="wd-article-box row">
+            <div class="container wd-container-align pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc wd-move-up-articles">
+                <div class="wd-article-box row me-3">
                     <div class="col-10 wd-text-soft-gray pt-2 pb-2">
                         Web Development
                         <p id="article-text" class="wd-text-soft-gray"><b class="wd-color-black pt-2">NodeJS&nbsp;</b><i class="fa-solid fa-circle-check wd-color-black"></i> - 2h</p>
@@ -119,9 +121,34 @@
                 </div>
             </div>
 
+            </div>
+
+        <div class="col mb-3 pt-4 d-none d-md-block col-md-4 col-xxl-4 wd-rounded ms-0 pe-2">
+
+                <ul class="list-group">
+
+                    <li class="list-group-item">Who to follow</li>
+                    <li class="list-group-item">
+                        <image src="../images/java.jpg" class="wd-who-follow-photo"></image>
+
+                        <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">Java&nbsp;</b>
+                        <i class="fa-solid fa-circle-check wd-color-black"></i></br>
+                            @Java
+                            </p>
+
+                    </li>
+                    <li class="list-group-item">Dashboard</li>
+                    <li class="list-group-item"></li>
+                    <li class="list-group-item">Calendar</li>
+                    <li class="list-group-item">Inbox</li>
+                    <li class="list-group-item">History</li>
+                </ul>
+        </div>
+
+
 
         </div>
-</div>
+
 </div>
 
 

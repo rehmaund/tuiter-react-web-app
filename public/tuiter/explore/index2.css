@@ -45,7 +45,7 @@
 }
 
 .wd-width-80pc{
-    width: 80%;
+    width: 60%;
 }
 
 .wd-width-100pc{
@@ -108,4 +108,43 @@ p#article-text {
 
 .wd-border-none{
     border: none;
+}
+
+.wd-move-up-articles{
+    position: relative;
+    top: -45px;
+}
+
+.wd-who-follow-photo{
+    border-radius: 50px;
+    height: 48px;
+    width: 48px;
+}
+
+.wd-float-right{
+    float: right;
+}
+
+.wd-move-search-icon {
+    position: relative;
+    left: -480px;
+}
+
+.wd-color-blue{
+    color: blue;
+}
+
+.wd-move-up-gear{
+    position: relative;
+    top: -44px;
+    left: -40px;
+}
+
+.wd-remove-margins {
+    margin: 0;
+    padding: 0;
+}
+
+.wd-max-width-handles{
+    max-width: 20%;
 }
