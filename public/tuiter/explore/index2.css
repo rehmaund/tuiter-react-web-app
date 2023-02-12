@@ -31,6 +31,10 @@
     border-radius: 40px;
 }
 
+.wd-rounded-slight{
+    border-radius: 10px;
+}
+
 .wd-draw-later{
     z-index: 10;
 }
@@ -46,4 +50,62 @@
 
 .wd-width-100pc{
     width: 100%;
+}
+
+.wd-photo-text{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: -50px;
+}
+
+.wd-article-box{
+    border: thin solid lightgray;
+}
+
+.wd-align-right{
+    text-align: right;
+}
+
+.wd-max-width-80{
+    max-width: 80%;
+}
+
+.wd-vertical-align{
+    vertical-align: top;
+}
+
+.wd-text-soft-gray{
+    color: rgb(140,140,140);
+
+}
+
+p#article-text {
+    padding: 0px;
+    margin: 0px;
+}
+
+.wd-container-align{
+    display: inline-block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+#input-container {
+    position: relative;
+}
+
+#input-container > i {
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
+
+#input-container > input {
+    padding-left: 40px;
+}
+
+.wd-border-none{
+    border: none;
 }
