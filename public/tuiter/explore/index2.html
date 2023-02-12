@@ -12,7 +12,9 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div class="p-4 col d-none d-md-block col-md-2 col-xxl-2">
+
+        <!-- Large search column -->
+        <div class="p-4 col d-none d-xl-block col-xl-2 col-xxl-2">
             <ul class="list-group wd-remove-hyperlink-style">
                 <li class="list-group-item"><i class="fas fa-t">&nbsp;&nbsp;</i></li>
                 <li class="list-group-item"><i class="fas fa-house">&nbsp;&nbsp;</i><a href="../navigation.html" class="wd-remove-hyperlink-style wd-color-black">Home</a></li>
@@ -35,11 +37,38 @@
 
         </div>
 
-        <div class="col mb-3 pt-4 d-none d-md-block col-md-6 col-xxl-6 wd-rounded me-0">
+        <!-- Alternative right hand navigator for small screens -->
+
+        <div class="p-4 col d-none d-sm-block col-xs-2 col-sm-2 col-md-2 col-lg-1 d-xl-none d-xxl-none">
+            <ul class="list-group wd-remove-hyperlink-style">
+                <li class="list-group-item"><i class="fas fa-t"></i></li>
+                <li class="list-group-item"><a href="../navigation.html" class="wd-remove-hyperlink-style wd-color-black"></a><i class="fas fa-house"></i></li>
+                <li class="list-group-item active"><a href="index.html" class="wd-remove-hyperlink-style wd-color-white"><i class="fa fa-hashtag"></i></a></li>
+                <li class="list-group-item"><a href="../notifications.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa fa-bell"></i></a></li>
+                <li class="list-group-item"><a href="../messages.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa fa-envelope"></i></a></li>
+                <li class="list-group-item"><a href="../bookmarks.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa fa-bookmark"></i></a></li>
+                <li class="list-group-item"><a href="../lists.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa fa-list"></i></a></li>
+                <li class="list-group-item"><a href="../profile.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa fa-user"></i></a></li>
+                <li class="list-group-item wd-display-inline"><a href="../topic.html" class="wd-remove-hyperlink-style wd-display-inline wd-color-black"><span class="fa-stack fa-2xs wd-display-inline wd-move-left-4">
+<i class="fas fa-circle fa-stack-2x"></i>
+<i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse" style="color: rgb(255,255,255)"></i>
+</span></a></li>
+            </ul>
+            <div class="pt-2 d-grid col-12 mx-auto">
+                <button class="btn btn-primary wd-rounded wd-text-centered">
+                    Tuit
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Middle search column -->
+
+        <div class="col mb-3 col-xs-8 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6 wd-rounded me-0 mt-4">
             <div class="input-group wd-rounded w-75 col-12" id="input-container">
-            <i class="fa-solid fa-magnifying-glass wd-draw-later wd-align-left wd-border-none wd-rounded"></i>
+            <i class="fa-solid fa-magnifying-glass wd-draw-later wd-align-left wd-border-none wd-rounded rounded-pill"></i>
                 <input type="text"
-                       class="form-control py-2 ps-5 wd-rounded wd-inline w-75 d-width-80pc"
+                       class="form-control py-2 ps-5 wd-rounded wd-inline w-75 d-width-80pc rounded-pill"
                        id="search-bar"
                        placeholder="Search Tuiter">
             </div>
@@ -58,7 +87,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Sports</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-md-block">
                     <a class="nav-link" href="#" tabindex="-1">Entertainment</a>
                 </li>
             </ul>
@@ -123,25 +152,117 @@
 
             </div>
 
-        <div class="col mb-3 pt-4 d-none d-md-block col-md-4 col-xxl-4 wd-rounded ms-0 pe-2">
+        <!-- Who to follow section -->
 
-                <ul class="list-group">
+        <div class="col mb-3 ps-0 pt-4 d-none d-lg-block col-md-none col-sm-none col-lg-4 col-xl-4 col-xxl-4 wd-rounded ms-0 pe-2">
+            <ul class="list-group">
 
-                    <li class="list-group-item">Who to follow</li>
-                    <li class="list-group-item">
-                        <image src="../images/java.jpg" class="wd-who-follow-photo"></image>
-
+                <li class="list-group-item">Who to follow</li>
+                <li class="list-group-item">
+            <div class="container wd-border-none p-0 m-0">
+                <div class="row wd-border-none p-0 m-0">
+                    <div class="col-2 wd-border-none p-0 m-0">
+                            <image src="../images/java.jpg" class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+                    </div>
+                    <div class="col-7 wd-border-none mx-0 px-0">
                         <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">Java&nbsp;</b>
-                        <i class="fa-solid fa-circle-check wd-color-black"></i></br>
+                            <i class="fa-solid fa-circle-check wd-color-black"></i></br>
                             @Java
-                            </p>
+                        </p>
+                    </div>
+                    <div class="col-3 wd-border-none center-block">
+                        <button type="button" class="btn btn-primary btn-sm center-block mt-2 wd-rounded">Follow</button>
+                    </div>
+                </div>
+            </div>
+
 
                     </li>
-                    <li class="list-group-item">Dashboard</li>
-                    <li class="list-group-item"></li>
-                    <li class="list-group-item">Calendar</li>
-                    <li class="list-group-item">Inbox</li>
-                    <li class="list-group-item">History</li>
+
+                <li class="list-group-item">
+                    <div class="container wd-border-none p-0 m-0">
+                        <div class="row wd-border-none p-0 m-0">
+                            <div class="col-2 wd-border-none p-0 m-0">
+                                <image src="../images/relativity.jpg" class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+                            </div>
+                            <div class="col-7 wd-border-none mx-0 px-0">
+                                <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">Relativity Space&nbsp;</b>
+                                    <i class="fa-solid fa-circle-check wd-color-black"></i></br>
+                                    @relativityspace
+                                </p>
+                            </div>
+                            <div class="col-3 wd-border-none center-block">
+                                <button type="button" class="btn btn-primary btn-sm center-block mt-2 wd-rounded">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
+                <li class="list-group-item">
+                    <div class="container wd-border-none p-0 m-0">
+                        <div class="row wd-border-none p-0 m-0">
+                            <div class="col-2 wd-border-none p-0 m-0">
+                                <image src="../images/vgalactic.jpg" class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+                            </div>
+                            <div class="col-7 wd-border-none mx-0 px-0">
+                                <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">Virgin Galactic&nbsp;</b>
+                                    <i class="fa-solid fa-circle-check wd-color-black"></i></br>
+                                    @virgingalactic
+                                </p>
+                            </div>
+                            <div class="col-3 wd-border-none center-block">
+                                <button type="button" class="btn btn-primary btn-sm center-block mt-2 wd-rounded">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
+                <li class="list-group-item">
+                    <div class="container wd-border-none p-0 m-0">
+                        <div class="row wd-border-none p-0 m-0">
+                            <div class="col-2 wd-border-none p-0 m-0">
+                                <image src="../images/nasa.png" class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+                            </div>
+                            <div class="col-7 wd-border-none mx-0 px-0">
+                                <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">NASA&nbsp;</b>
+                                    <i class="fa-solid fa-circle-check wd-color-black"></i></br>
+                                    @NASA
+                                </p>
+                            </div>
+                            <div class="col-3 wd-border-none center-block">
+                                <button type="button" class="btn btn-primary btn-sm center-block mt-2 wd-rounded">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
+                <li class="list-group-item mx-0">
+                    <div class="container wd-border-none p-0 m-0">
+                        <div class="row wd-border-none p-0 m-0">
+                            <div class="col-2 wd-border-none p-0 m-0">
+                                <image src="../images/tesla.jpg" class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+                            </div>
+                            <div class="col-7 wd-border-none mx-0 px-0">
+                                <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">Tesla&nbsp;</b>
+                                    <i class="fa-solid fa-circle-check wd-color-black"></i></br>
+                                    @Tesla
+                                </p>
+                            </div>
+                            <div class="col-3 wd-border-none center-block">
+                                <button type="button" class="btn btn-primary btn-sm center-block mt-2 wd-rounded">Follow</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </li>
+
                 </ul>
         </div>
 
