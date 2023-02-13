@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="indexchallenge.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/50d13a0274.js" crossorigin="anonymous"></script>
+</head>
+
+<div class="container-fluid">
+  <div class="row">
+
+    <!-- Large search column -->
+    <div class="p-4 col d-none d-xl-block col-xl-2 col-xxl-2">
+      <ul class="list-group wd-remove-hyperlink-style wd-border-none">
+        <li class="list-group-item wd-border-none"><i class="fas fa-t wd-color-blue">&nbsp;&nbsp;</i></li>
+        <li class="list-group-item wd-border-none"><i class="fas fa-house-chimney-window">&nbsp;&nbsp;</i><a href="../navigation.html" class="wd-remove-hyperlink-style wd-color-black">Home</a></li>
+        <li class="list-group-item wd-border-none"><i class="fa-solid fa-bold fa-hashtag">&nbsp;&nbsp;</i><a href="index.html" class="wd-remove-hyperlink-style wd-color-black"><b>Explore</b></a></li>
+        <li class="list-group-item wd-border-none"><i class="fa-regular fa-bell">&nbsp;&nbsp;</i><a href="../notifications.html" class="wd-remove-hyperlink-style wd-color-black">Notifications</a></li>
+        <li class="list-group-item wd-border-none"><i class="fa-regular fa-envelope">&nbsp;&nbsp;</i><a href="../messages.html" class="wd-remove-hyperlink-style wd-color-black">Messages</a></li>
+        <li class="list-group-item wd-border-none"><i class="fa-regular fa-bookmark">&nbsp;&nbsp;</i><a href="../bookmarks.html" class="wd-remove-hyperlink-style wd-color-black">Bookmarks</a></li>
+        <li class="list-group-item wd-border-none"><i class="fa-solid fa-fire">&nbsp;&nbsp;</i><a href="../lists.html" class="wd-remove-hyperlink-style wd-color-black">Top Articles</a></li>
+        <li class="list-group-item wd-border-none"><i class="fa-regular fa-user">&nbsp;&nbsp;</i><a href="../profile.html" class="wd-remove-hyperlink-style wd-color-black">Profile</a></li>
+        <li class="list-group-item wd-display-inline wd-border-none"><span class="fa-stack fa-2xs wd-display-inline wd-move-left-4">
+<i class="fa-regular fa-circle fa-stack-2x"></i>
+<i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse" style="color: rgb(0,0,0)"></i>
+</span><a href="../topic.html" class="wd-remove-hyperlink-style wd-display-inline wd-color-black">More</a></li>
+      </ul>
+      <div class="pt-2 d-grid col-12 mx-auto">
+        <button class="btn btn-primary wd-rounded wd-text-centered">
+          Tuit
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Alternative right hand navigator for small screens -->
+
+    <div class="p-4 col d-none d-sm-block col-xs-2 col-sm-2 col-md-2 col-lg-1 d-xl-none d-xxl-none wd-border-none">
+      <ul class="list-group wd-remove-hyperlink-style wd-border-none">
+        <li class="list-group-item wd-border-none"><i class="fas fa-t wd-color-blue"></i></li>
+        <li class="list-group-item wd-border-none"><a href="../navigation.html" class="wd-remove-hyperlink-style wd-color-black"></a><i class="fa-solid fa-house-chimney-window"></i></li>
+        <li class="list-group-item wd-border-none"><a href="index.html" class="wd-remove-hyperlink-style wd-color-black"><b><i class="fa-solid fa-hashtag"></i></b></a></li>
+        <li class="list-group-item wd-border-none"><a href="../notifications.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa-regular fa-bell"></i></a></li>
+        <li class="list-group-item wd-border-none"><a href="../messages.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa-regular fa-envelope"></i></a></li>
+        <li class="list-group-item wd-border-none"><a href="../bookmarks.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa-regular fa-bookmark"></i></a></li>
+        <li class="list-group-item wd-border-none"><a href="../lists.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa-solid fa-fire"></i></a></li>
+        <li class="list-group-item wd-border-none"><a href="../profile.html" class="wd-remove-hyperlink-style wd-color-black"><i class="fa-regular fa-user"></i></a></li>
+        <li class="list-group-item wd-display-inline wd-border-none"><a href="../topic.html" class="wd-remove-hyperlink-style wd-display-inline wd-color-black"><span class="fa-stack fa-2xs wd-display-inline wd-move-left-4">
+<i class="fa-regular fa-circle fa-stack-2x"></i>
+<i class="fa-solid fa-ellipsis fa-stack-1x fa-inverse" style="color: rgb(0,0,0)"></i>
+</span></a></li>
+      </ul>
+      <div class="pt-2 d-grid col-12 mx-auto">
+        <button id="blue" class="btn override-blue-btn btn-primary override-blue-btn wd-rounded wd-text-centered">
+          Tuit
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Middle search column -->
+
+    <div class="col mb-3 col-xs-8 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6 wd-rounded me-0 mt-4">
+      <div class="input-group wd-rounded w-75 col-12" id="input-container">
+        <i class="fa-solid fa-magnifying-glass wd-draw-later wd-align-left wd-border-none wd-rounded rounded-pill"></i>
+        <input type="text"
+               class="form-control py-2 ps-5 wd-rounded wd-inline w-75 d-width-80pc rounded-pill override-gray"
+               id="search-bar"
+               placeholder="Search Tuiter">
+      </div>
+      <i class="fa-solid fa-gear wd-move-left-4 wd-float-right wd-move-up-gear fa-2x p-2 wd-color-black"></i>
+
+      <ul class="nav nav-tabs override-no-border pt-2">
+        <li class="nav-item override-active-item">
+          <a class="nav-link active" href="#"><b>For You</b></a>
+        </li>
+        <li class="nav-item override-no-border">
+          <a class="nav-link" href="#">Trending</a>
+        </li>
+        <li class="nav-item override-no-border">
+          <a class="nav-link" href="#">News</a>
+        </li>
+        <li class="nav-item override-no-border">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item d-none d-md-block override-no-border">
+          <a class="nav-link" href="#" tabindex="-1">Entertainment</a>
+        </li>
+      </ul>
+      <div class="me-3 mb-0 mt-0">
+        <image src="../images/australiaopen.jpg" class="pt-2 pb-0 wd-width-100pc wd-container-align me-5"></image></div>
+      <div class="wd-photo-text wd-inline"><m class="wd-large-text">&nbsp;&nbsp;Tennis Tournament&nbsp;&#183;&nbsp;LIVE</m></br><b class="wd-extra-large-text">&nbsp;Australia Open 2023</b></div>
+
+      <div id="borderless" class="container wd-container-align me-5 pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc wd-move-up-articles wd-no-border">
+        <div id="borderless" class="wd-article-box row me-3 wd-pad-12 wd-no-border">
+          <div id="borderless" class="col-10 wd-text-soft-gray pt-2 wd-no-border">
+            Politics&nbsp;&#183;&nbsp;Trending
+            <p id="article-text" class="wd-text-soft-gray"><b class="wd-color-black pt-2">Seizures&nbsp;</b></p>
+            <p class="wd-text-soft-gray">4,953 Tuits</b></p>
+          </div>
+          <div class="col-2 wd-align-right wd-vertical-align">
+            <i class="fa-solid fa-ellipsis wd-align-right wd-inline pt-2 pr-2 mt-2 wd-color-gray"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="borderless" class="container wd-container-align px-2 pr-4 m-0 pb-0 pt-0 wd-move-up-articles ">
+        <div id="borderless" class="wd-article-box row me-3" width="100%">
+          <div id="borderless" class="col-10 wd-text-soft-gray pb-2">
+            <p id="article-text" class="wd-text-soft-gray pt-2"><b class="wd-color-black">#InfinityPool&nbsp;</b></p>
+            <p id="article-text" class="wd-text-soft-gray">See the electrifying thriller Infinity Pool in theaters - if you dare</p>
+            <p id="article-text" class="wd-text-soft-gray wd-small-text mb-2"><i class="fa-solid fa-up-right-from-square wd-text-soft-gray"></i>&nbsp;Promoted by NEON</p>
+          </div>
+        </div>
+      </div>
+
+      <div id="borderless" class="container wd-container-align me-5 pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc wd-move-up-articles wd-no-border">
+        <div id="borderless" class="wd-article-box row me-3 wd-pad-12 wd-no-border">
+          <div id="borderless" class="col-10 wd-text-soft-gray pt-2 wd-no-border">
+            Sports&nbsp;&#183;&nbsp;Trending
+            <p id="article-text" class="wd-text-soft-gray"><b class="wd-color-black pt-2">RIP Bean&nbsp;</b></p>
+            <p class="wd-text-soft-gray">18K Tuits</b></p>
+          </div>
+          <div class="col-2 wd-align-right wd-vertical-align">
+            <i class="fa-solid fa-ellipsis wd-align-right wd-inline pt-2 pr-2 mt-2 wd-color-gray"></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="borderless" class="container wd-container-align me-5 pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc wd-move-up-articles wd-no-border">
+        <div id="borderless" class="wd-article-box row me-3 wd-pad-12 wd-no-border">
+          <div id="borderless" class="col-10 wd-text-soft-gray pt-2 wd-no-border">
+            Politics&nbsp;&#183;&nbsp;Trending
+            <p id="article-text" class="wd-text-soft-gray"><b class="wd-color-black pt-2">Durham&nbsp;</b></p>
+            <p class="wd-text-soft-gray">Trending with&nbsp;<m id="blue-text">Barr</m>,&nbsp;<m id="blue-text">Barr</m></p>
+          </div>
+          <div class="col-2 wd-align-right wd-vertical-align">
+            <i class="fa-solid fa-ellipsis wd-align-right wd-inline pt-2 pr-2 mt-2 wd-color-gray"></i>
+          </div>
+        </div>
+      </div>
+
+      <div id="borderless" class="container wd-container-align me-5 pr-2 px-2 m-0 pb-0 pt-0 mt-0 wd-width-100pc wd-move-up-articles wd-no-border">
+        <div id="borderless" class="wd-article-box row me-3 wd-pad-12 wd-no-border">
+          <div id="borderless" class="col-10 wd-text-soft-gray pt-2 wd-no-border">
+            Trending in business and finance
+            <p id="article-text" class="wd-text-soft-gray"><b class="wd-color-black pt-2">#DirectedEvolution&nbsp;</b></p>
+            <p class="wd-text-soft-gray">172K Tuits</b></p>
+          </div>
+          <div class="col-2 wd-align-right wd-vertical-align">
+            <i class="fa-solid fa-ellipsis wd-align-right wd-inline pt-2 pr-2 mt-2 wd-color-gray"></i>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+    <!-- Who to follow section -->
+
+    <div class="col mb-3 ps-0 ms-0 pt-4 pe-4 d-none d-lg-block col-md-none col-sm-none col-lg-4 col-xl-4 col-xxl-4 wd-rounded ms-0 pe-2 .wd-remove-hyperlink-style">
+      <ul class="list-group override-gray wd-background-gray">
+
+        <li class="list-group-item override-gray-borderless" style="font-size: 22px;"><b>Who to follow</b></li>
+        <li class="list-group-item override-gray-borderless">
+          <div class="container wd-border-none p-0 m-0">
+            <div class="row wd-border-none p-0 m-0">
+              <div class="col-2 wd-border-none p-0 m-0">
+                <image src="../images/nu.jpg" class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+              </div>
+              <div class="col-7 wd-border-none mx-0 px-0">
+                <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">Northeastern U.&nbsp;</b>
+                  <i class="fa-solid fa-circle-check wd-color-blue"></i></br>
+                  @northeastern
+                </p>
+              </div>
+              <div class="col-3 wd-border-none center-block">
+                <button type="button" class="btn btn-primary override-black-btn btn-sm center-block mt-2 wd-rounded">Follow</button>
+              </div>
+            </div>
+          </div>
+
+
+        </li>
+
+        <li class="list-group-item override-gray-borderless">
+          <div class="container wd-border-none p-0 m-0">
+            <div class="row wd-border-none p-0 m-0">
+              <div class="col-2 wd-border-none p-0 m-0">
+                <image src="../images/man.jpg" class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+              </div>
+              <div class="col-7 wd-border-none mx-0 px-0">
+                <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">Matt Wallace&nbsp;</b>
+                  <i class="fa-solid fa-circle-check wd-color-blue"></i></br>
+                  @mattwallace88
+                </p>
+              </div>
+              <div class="col-3 wd-border-none center-block">
+                <button type="button" class="btn btn-primary override-black-btn btn-sm center-block mt-2 wd-rounded">Follow</button>
+              </div>
+            </div>
+          </div>
+
+
+        </li>
+
+        <li class="list-group-item override-gray-borderless">
+          <div class="container wd-border-none p-0 m-0">
+            <div class="row wd-border-none p-0 m-0">
+              <div class="col-2 wd-border-none p-0 m-0">
+                <image src="../images/pb.png" class="wd-who-follow-photo-slight wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+              </div>
+              <div class="col-7 wd-border-none mx-0 px-0">
+                <p class="wd-text-soft-gray wd-inline"><b class="wd-color-black">PointsBet Spor...&nbsp;</b>
+                  <i class="fa-solid fa-circle-check wd-color-gold"></i></br>
+                  @PointsBetUSA
+                </p>
+                <p class="wd-text-soft-gray wd-text-small"></br>
+                <i class="fa-solid fa-arrow-up-right-from-square wd-color-gray"></i>&nbsp;Promoted</p>
+              </div>
+              <div class="col-3 wd-border-none center-block">
+                <button type="button" class="btn btn-primary override-black-btn btn-sm center-block mt-2 wd-rounded">Follow</button>
+              </div>
+            </div>
+          </div>
+
+
+        </li>
+
+        <li class="list-group-item override-gray-borderless">
+          <div class="container wd-border-none p-0 m-0">
+            <div class="row wd-border-none p-0 m-0 wd-color-blue wd-move-up-show-more">
+                Show More
+              </br>
+            </div>
+          </div>
+
+
+      </ul>
+        </br>
+        <p class="wd-text-soft-gray wd-text-small mb-1 mx-2">Terms of Service&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;Cookie Policy</p>
+        <p class="wd-text-soft-gray wd-text-small mb-1 mx-2">Accessibility&nbsp;&nbsp;Ads info&nbsp;&nbsp;More ...</p>
+      <p class="wd-text-soft-gray wd-text-small mx-2"><i class="fa-regular fa-copyright"></i>&nbsp;2023 Tuiter, Inc.</p>
+
+    </div>
+
+
+
+  </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>
