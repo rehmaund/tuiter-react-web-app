@@ -3,7 +3,7 @@ import post from "./post.js";
 
 const PostSummaryList = () => {
     return (`
-        <ul class="list-group mt-0 wd-move-up-articles">
+        <ul class="list-group mt-2">
             ${PostSummaryItem(post[0])}
             ${PostSummaryItem(post[1])}
             ${PostSummaryItem(post[2])}

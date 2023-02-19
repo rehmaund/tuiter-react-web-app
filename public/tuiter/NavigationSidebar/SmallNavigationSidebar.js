@@ -1,6 +1,6 @@
 const SmallNavigationSidebar = (active) => {
     return(`
-            <div class="list-group">
+            <div class="list-group mt-2">
              <a class="list-group-item" href="/">
                     <i class="fab fa-twitter"></i></a>
          

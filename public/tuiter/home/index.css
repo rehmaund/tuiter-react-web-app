@@ -170,8 +170,8 @@ p#article-text {
 .wd-article-photo{
     position: relative;
     float: right;
-    height: 80px;
-    width: 80px;
+    height: 90%;
+    width: 90%;
     vertical-align: auto;
 
 }
@@ -184,3 +184,238 @@ p#article-text {
     position: relative;
     top: -10px;
 }
+
+.wd-move-up-20 {
+    position: relative;
+    top: -20px;
+}
+
+.wd-bookmark-heading {
+    position: relative;
+    padding-top: 12px;
+    padding-left: 16px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif, Arial;
+}
+
+.wd-move-small-text-up {
+    position: relative;
+    top: -20px;
+}
+
+.wd-reduce-padding{
+    padding-bottom: -10px;
+}
+
+.wd-3dots-blue {
+    float: right;
+    display: inline;
+    color: rgb(29,161,242);
+    padding-right: 12px;
+    font-size: 30px;
+    padding-top: 20px;}
+
+.wd-div-boxes-bm {
+    border-left-width: thin;
+    border-style: solid;
+    border-left-color: rgb(47, 51, 54);
+    border-right-width: thin;
+    border-right-color: rgb(47, 51, 54);
+    border-top-width: thin;
+    border-top-color: rgb(47, 51, 54);
+    border-bottom-width: thin;
+    border-bottom-color: rgb(47, 51, 54);
+
+}
+
+.wd-div-heading-size {
+    height: 90px;
+}
+
+.wd-profile-photo {
+    height: 48px;
+    width: 48px;
+    border-radius: 30px;
+}
+
+.wd-move-photo1 {
+    position: relative;
+    top: 12px;
+    left: 12px;
+}
+
+.wd-small-text {
+    margin-inline-start: 0;
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+    font-family: sans-serif, Arial;
+    padding-left: 12px;
+}
+
+.wd-text-white {
+    margin-inline-start: 0;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif, Arial;
+    padding-top: 0px;
+    padding-left: 4px;
+    display: inline;
+}
+
+.wd-text-gray {
+    margin-inline-start: 0;
+    color: lightgray;
+    font-size: 15px;
+    font-family: sans-serif, Arial;
+    padding-top: 0px;
+    padding-left: 0px;
+    /*display: inline;*/
+}
+
+.wd-move-up {
+    position: relative;
+    top: -20px;
+}
+
+.wd-3dots-gray {
+    float: right;
+    display: inline;
+    color: lightgray;
+    padding-right: 12px;
+    font-size: 30px;
+    padding-top: 20px;}
+
+.wd-white-text-block {
+    font-family: sans-serif, Arial;
+    max-width: 506px;
+    display: inline;
+    padding-top: 0px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.wd-bookmark-item {
+
+    width: 100%;
+    display: flex;
+
+}
+
+.wd-column-left {
+    width: 60px;
+
+}
+
+.wd-column-right {
+    max-width: 490px;
+    width: 100%;
+
+}
+
+.wd-gray-icon {
+    color: lightgray;
+    display: inline;
+    font-size: 16px;
+    padding-right: 58px;
+    padding-left: 12px;
+}
+
+.wd-red-icon {
+    color: red;
+    display: inline;
+    font-size: 16px;
+    padding-right: 58px;
+    padding-left: 12px;
+}
+
+.wd-red {
+    color: red;
+}
+
+.wd-move-up-10{
+    position: relative;
+    top: -10px;
+}
+
+.wd-border-article {
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    width: 95%;
+    height: 25%;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 2px;
+}
+
+.wd-move-up-50 {
+    position: relative;
+    top: -50px;
+}
+
+.wd-move-up-40 {
+    position: relative;
+    top: -41px;
+}
+
+.wd-move-up-30 {
+    position: relative;
+    top: -30px;
+}
+
+.wd-article-image {
+    width: 95%;
+    height: 55%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 0px;
+    padding-left: 0px;
+    position: relative;
+    top: -38px;
+}
+
+.wd-pad-12 {
+    padding: 12px;
+}
+
+.wd-pad-12 {
+    padding-top: 12px;
+}
+
+.wd-icon-layout {
+
+}
+
+.wd-pad-right-12 {
+    padding-right: 12px;
+}
+
+.wd-pad-80-left {
+    display: inline;
+    padding-left: 26px;
+}
+
+.wd-post-font{
+    font-size: 13px;
+}
+
+.wd-move-up-5{
+    position: relative;
+    top: -3px;
+}
+
+.wd-article-image-2 {
+    width: 95%;
+    height: 80%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-top: 0px;
+    padding-left: 0px;
+    position: relative;
+    top: -38px;
+}
+

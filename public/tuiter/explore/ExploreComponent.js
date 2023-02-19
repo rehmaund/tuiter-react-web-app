@@ -3,7 +3,7 @@ import PostSummaryList
 
 const ExploreComponent = () => {
     return(`
-            <div class="row m-0">
+            <div class="row m-0 mt-2">
                      
             <div class="input-group wd-rounded col-12 w-75 mx-0" id="input-container">
             <i class="fa-solid fa-magnifying-glass wd-draw-later px-2 wd-align-left wd-border-none wd-rounded rounded-pill"></i>
@@ -43,7 +43,8 @@ const ExploreComponent = () => {
            <div class="m-0">
                 <image src="../images/starship.jpg" class="pb-0 wd-width-100pc wd-container-align m-0"></image></div>
                 <div class="wd-photo-text wd-inline px-2 m-0">SpaceX's Starship</div>
-           ${PostSummaryList()}
+                <div class="wd-move-up-articles">${PostSummaryList()}</div>
+      
     `);
 }
 export default ExploreComponent;

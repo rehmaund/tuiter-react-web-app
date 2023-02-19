@@ -1,11 +1,12 @@
 import PostItem from "./PostItem.js";
+import PostItemNoDescription from "./PostItem.js";
 import post from "./post.js";
 
 const PostList = () => {
     return (`
-        <ul class="list-group">
+        <ul class="list-group mt-2">
             ${PostItem(post[0])}
-            ${PostItem(post[1])}
+            ${PostItemNoDescription(post[1])}
  
     </ul>
 `);
