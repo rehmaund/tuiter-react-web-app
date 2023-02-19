@@ -1,11 +1,11 @@
-const NavigationSidebar = () => {
+const NavigationSidebar = (active) => {
     return(`
             <div class="list-group">
              <a class="list-group-item" href="/">
                     <i class="fab fa-twitter"></i></a>
          
-                <a class="list-group-item" href="../navigation.html"><i class="fas fa-house">&nbsp;&nbsp;</i>Home</a>
-                <a class="list-group-item bg-primary" href="index.html"><i class="fa fa-hashtag">&nbsp;&nbsp;</i>Explore</a>
+                <a class="list-group-item ${active === 'Home' ? 'active' : ''}" href="../navigation.html"><i class="fas fa-house">&nbsp;&nbsp;</i>Home</a>
+                <a class="list-group-item ${active === 'Explore' ? 'active' : ''}" href="index.html"><i class="fa fa-hashtag">&nbsp;&nbsp;</i>Explore</a>
                 <a class="list-group-item" href="../notifications.html.html"><i class="fa fa-bell">&nbsp;&nbsp;</i>Notifications</a>
                 <a class="list-group-item" href="../messages.html"><i class="fa fa-envelope"">&nbsp;&nbsp;</i>Messages</a>
                 <a class="list-group-item" href="../bookmarks.html"><i class="fa fa-bookmark">&nbsp;&nbsp;</i>Bookmarks</a>

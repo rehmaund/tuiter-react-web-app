@@ -112,7 +112,12 @@ p#article-text {
 
 .wd-move-up-articles{
     position: relative;
-    top: -45px;
+    top: -40px;
+}
+
+.wd-move-up-gear{
+    position: relative;
+    top: 20px;
 }
 
 .wd-who-follow-photo{
@@ -131,7 +136,11 @@ p#article-text {
 }
 
 .wd-color-blue{
-    color: blue;
+    color: #1D9BF0;
+}
+
+.wd-background-blue {
+    background-color: #1D9BF0;
 }
 
 .wd-move-up-gear{
@@ -152,4 +161,26 @@ p#article-text {
 .wd-move-icon-left{
     position: relative;
     left: -8px;
+}
+
+.wd-flex{
+    display: flex;
+}
+
+.wd-article-photo{
+    position: relative;
+    float: right;
+    height: 80px;
+    width: 80px;
+    vertical-align: auto;
+
+}
+
+.wd-float-left {
+    float:left;
+}
+
+.wd-move-up{
+    position: relative;
+    top: -10px;
 }
