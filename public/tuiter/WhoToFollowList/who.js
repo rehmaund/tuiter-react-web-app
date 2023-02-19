@@ -8,6 +8,6 @@ export default [
         userName: 'Virgin Galactic',
         handle: '@virgingalactic', },
     {   avatarIcon: '../images/nasa.png',
-        userName: 'NASA', handle: 'NASA', },
+        userName: 'NASA', handle: '@NASA', },
     {   avatarIcon: '../images/tesla.jpg',
         userName: 'Tesla', handle: '@Tesla', }, ];
