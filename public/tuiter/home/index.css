@@ -342,14 +342,15 @@ p#article-text {
 }
 
 .wd-border-article {
-    border-width: 1px;
+    border-width: thin;
     border-style: solid;
-    border-color: lightgray;
-    width: 95%;
-    height: 25%;
+    border-color: rgb(47, 51, 54);
+    width: 96%;
+    height: 27%;
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
     margin-right: 2px;
+
 }
 
 .wd-move-up-50 {
@@ -368,7 +369,7 @@ p#article-text {
 }
 
 .wd-article-image {
-    width: 95%;
+    width: 96%;
     height: 55%;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -409,13 +410,17 @@ p#article-text {
 }
 
 .wd-article-image-2 {
-    width: 95%;
+    width: 96%;
     height: 80%;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+    border-radius: 30px;
     padding-top: 0px;
     padding-left: 0px;
     position: relative;
     top: -38px;
 }
+
+.wd-likes-font{
+    font-size: 10px;
+}
+
 

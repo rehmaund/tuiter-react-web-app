@@ -12,7 +12,6 @@ export default [
         numComments: "4.2K",
         numRetuits: "3.5K",
         numLikes: "37.5K",
-        descriptionIncluded: true
     },
 
     {
@@ -28,6 +27,5 @@ export default [
         numComments: "965",
         numRetuits: "2.4K",
         numLikes: "4K",
-        descriptionIncluded: false
     }
 ];

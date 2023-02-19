@@ -1,5 +1,5 @@
 import PostItem from "./PostItem.js";
-import PostItemNoDescription from "./PostItem.js";
+import PostItemNoDescription from "./PostItemNoDescription.js";
 import post from "./post.js";
 
 const PostList = () => {
