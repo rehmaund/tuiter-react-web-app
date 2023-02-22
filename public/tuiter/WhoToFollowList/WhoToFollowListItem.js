@@ -1,18 +1,18 @@
-
-export default function WhoToFollowListItem(who) {
+import React from "react";
+const WhoToFollowListItem = (who) => {
     return(`
 
         <li class="list-group-item">
             <div class="container wd-border-none p-0 m-0">
                 <div class="row wd-border-none p-0 m-0">
                     <div class="col-2 wd-border-none p-0 m-0">
-                        <image src=${who.avatarIcon}
+                        <image src={who.avatarIcon}
                                class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
                     </div>
                     <div class="col-7 wd-border-none mx-0 px-0">
-                        <p class="wd-color-white wd-inline"><b class="wd-color-white">${who.userName}&nbsp;</b>
+                        <p class="wd-color-white wd-inline"><b class="wd-color-white">{who.userName}&nbsp;</b>
                             <i class="fa-solid fa-circle-check wd-color-white"></i></br>
-                        ${who.handle}
+                        {who.handle}
                     </p>
                 </div>
                 <div class="col-3 wd-border-none center-block">
