@@ -1,12 +1,12 @@
 import Classes from "./classes";
 import Styles from "./styles";
 import ConditionalOutput
-    from "./conditional-output/index.js";
+    from "./conditional-output";
 import TodoList from "./todo/todo-list.js"
 function Assignment6() {
     return (
         <div>
-            <h1>Assignment 6</h1>
+            <h1 className="wd-text-black">Assignment 6</h1>
             <TodoList/>
             <ConditionalOutput/>
             <Styles/>

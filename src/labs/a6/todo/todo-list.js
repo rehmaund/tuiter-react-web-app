@@ -3,7 +3,7 @@ import todos from "./todos.json";
 const TodoList = () => {
     return(
         <>
-            <h3>Todo List</h3>
+            <h3 className="wd-text-black">Todo List</h3>
             <ul>
                 {
                     todos.map(todo => {
