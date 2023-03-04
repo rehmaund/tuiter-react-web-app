@@ -1,10 +1,12 @@
-import React from "react";
 
-const SmallNavigationSidebar = (
-    {
-        active = 'explore'
-    }
-) => {
+import React from "react";
+import {Link} from "react-router-dom";
+import {useLocation} from "react-router";
+const SmallNavigationSidebar = () => {
+    const {pathname} = useLocation();
+    const paths = pathname.split('/')
+    const active = paths[2];
+
     return (
 
 <div>
@@ -12,10 +14,10 @@ const SmallNavigationSidebar = (
     <a className="list-group-item" href="/">
         <i className="fab fa-twitter"></i></a>
 
-    <a className={`list-group-item ${active === 'home' ? 'active' : ''}`}  id="event-target"
-       href="../home/home.html"><i className="fas fa-house">&nbsp;&nbsp;</i></a>
-    <a className={`list-group-item ${active === 'explore' ? 'active' : ''}`}  id="event-target"
-       href="../explore/index.html"><i className="fa fa-hashtag">&nbsp;&nbsp;</i></a>
+    <Link to="/tuiter/home" className={`list-group-item ${active === 'home' ? 'active' : ''}`}  id="event-target"
+       href="../home/home.html"><i className="fas fa-house">&nbsp;&nbsp;</i></Link>
+    <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore' ? 'active' : ''}`}  id="event-target"
+       href="../explore/index.html"><i className="fa fa-hashtag">&nbsp;&nbsp;</i></Link>
     <a className={`list-group-item ${active === 'notifications' ? 'active' : ''}`} id="event-target"
        href="../notifications.html"><i className="fa fa-bell">&nbsp;&nbsp;</i></a>
     <a className={`list-group-item ${active === 'messages' ? 'active' : ''}`}  id="event-target"
