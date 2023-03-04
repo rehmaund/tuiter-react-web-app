@@ -80,352 +80,6 @@
 
 }
 
-.wd-text-gray {
-    color: rgb(100, 100, 100);
-}
-
-p#article-text {
-    padding: 0px;
-    margin: 0px;
-}
-
-.wd-container-align{
-    display: inline-block;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 0px;
-}
-
-#input-container {
-    position: relative;
-}
-
-#input-container > i {
-    position: absolute;
-    top: 12px;
-    left: 15px;
-}
-
-#input-container > input {
-    padding-left: 40px;
-}
-
-.wd-border-none{
-    border: none;
-}
-
-.wd-move-up-articles{
-    position: relative;
-    top: -40px;
-}
-
-.wd-move-up-gear{
-    position: relative;
-    top: 20px;
-}
-
-.wd-who-follow-photo{
-    border-radius: 50px;
-    height: 48px;
-    width: 48px;
-}
-
-.wd-float-right{
-    float: right;
-}
-
-.wd-move-search-icon {
-    position: relative;
-    left: -480px;
-}
-
-.wd-color-blue{
-    color: #1D9BF0;
-}
-
-.wd-background-blue {
-    background-color: #1D9BF0;
-}
-
-.wd-move-up-gear{
-    position: relative;
-    top: -44px;
-    left: -40px;
-}
-
-.wd-remove-margins {
-    margin: 0;
-    padding: 0;
-}
-
-.wd-max-width-handles{
-    max-width: 20%;
-}
-
-.wd-move-icon-left{
-    position: relative;
-    left: -8px;
-}
-
-.wd-flex{
-    display: flex;
-}
-
-.wd-article-photo{
-    position: relative;
-    float: right;
-    height: 80px;
-    width: 80px;
-    vertical-align: auto;
-
-}
-
-.wd-float-left {
-    float:left;
-}
-
-.wd-move-up{
-    position: relative;
-    top: -10px;
-}
-
-.wd-font-arial{
-    font-style: normal;
-    font-family: sans-serif, Arial;
-}
-
-.wd-move-down-5 {
-    position: relative;
-    top: 5px;
-}
-
-
-
-.wd-fg-color-lightgray { color: rgb(110, 118, 125); }
-
-.wd-bg-color-gray { background-color: #343a40; border: 0; outline: 0;}
-
-::placeholder {
-    color: #6c757d;
-    opacity: 1;
-    font-size: 90%;
-
-}
-
-.wd-margin-all-around {
-    margin-bottom: 20px;
-    margin-top: 20px;
-
-}
-
-.wd-search-dim {
-    width: 380px;
-    height: 25px
-}
-.wd-rounded { border-radius: 20px;}
-
-.wd-placeholder-padding { padding-left: 45px;}
-
-.wd-float-icon { float: left;  z-index: 10; position: relative; left: 35px; top: 22px;}
-
-.wd-blue-gear { float: right; display: inline; color: rgb(29,161,242); padding-right: 12px; font-size: 40px; padding-top: 8px;}
-
-.wd-col{
-    display: inline;
-    font-size: 12px;
-    font-family: sans-serif, Arial;
-    color: rgb(110, 118, 125);
-    padding: 16px;
-    height: 40px;
-
-}
-
-.wd-col-selected{
-    display: inline;
-    font-size: 12px;
-    font-family: sans-serif, Arial;
-    color: rgb(29,161,242);
-    padding: 16px;
-    height: 40px;
-
-}
-
-.wd-hr-format {
-    color: rgb(110, 118, 125);
-    height: 1px;
-
-}
-
-.wd-hr-blue {
-    z-index: 10;
-    position: relative;
-    left: 12px;
-    top: -14px;
-    width: 50px;
-    margin-inline-start: 0;
-    border: thin solid rgb(29,161,242);
-}
-
-.wd-filler-div {
-    border-width: thin;
-    border-style: solid;
-    border-color: rgb(110, 118, 125);
-    background-color: #343a40;
-    height: 20px;
-    position: relative;
-    top: -20px;
-}
-
-.wd-3dots-white {
-    float: right;
-    display: inline;
-    color: white;
-    padding-right: 12px;
-    font-size: 30px;
-    padding-top: -40px;}
-
-.wd-3dots-gray-1 {
-    float: right;
-    display: inline;
-    position: relative;
-    color: rgb(110, 118, 125);
-    padding-right: 12px;
-    font-size: 30px;
-    padding-top: -20px;
-    top: -14px;}
-
-.wd-3dots-gray-2 {
-    float: right;
-    display: inline;
-    position: relative;
-    color: rgb(110, 118, 125);
-    padding-right: 12px;
-    font-size: 30px;
-    padding-top: -20px;
-    top: -50px;}
-
-.wd-small-text-top {
-    margin-inline-start: 0;
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    font-family: sans-serif, Arial;
-    padding-top: 16px;
-    padding-left: 12px;
-}
-
-.wd-trending-row {
-    border-width: thin;
-    border-style: solid;
-    border-color: rgb(110, 118, 125);
-    position: relative;
-    top: -20px;
-}
-
-.wd-small-text-inline {
-    display: inline;
-    color: rgb(110, 118, 125);
-    font-size: 13px;
-    font-family: sans-serif, Arial;
-}
-
-.wd-div-move-up {
-    position: relative;
-    top: -20px;
-}
-
-.wd-news-image {
-    border: 0;
-    width: 100px;
-    height: 100px;
-    float: right;
-    padding-right: 16px;
-    position: relative;
-    top: -74px;
-
-}
-
-.wd-remove-hyperlink-style{
-    text-decoration:none;
-}
-
-.wd-color-black{
-    color: black;
-}
-
-.wd-color-white{
-    color: white;
-}
-
-.wd-inline{
-    display: inline;
-}
-
-.wd-move-left-4{
-    position: relative;
-    left: -4px;
-}
-
-.wd-text-centered{
-    text-align: center;
-}
-
-.wd-align-left{
-    align-content: left;
-}
-
-.wd-rounded{
-    border-radius: 40px;
-}
-
-.wd-rounded-slight{
-    border-radius: 10px;
-}
-
-.wd-draw-later{
-    z-index: 10;
-}
-
-.wd-move-left{
-    position: relative;
-    left: -520px;
-}
-
-.wd-width-80pc{
-    width: 60%;
-}
-
-.wd-width-100pc{
-    width: 99%;
-}
-
-.wd-photo-text{
-    font-size: 30px;
-    color: white;
-    position: relative;
-    top: -50px;
-}
-
-.wd-article-box{
-    border: thin solid lightgray;
-}
-
-.wd-align-right{
-    text-align: right;
-}
-
-.wd-max-width-80{
-    max-width: 80%;
-}
-
-.wd-vertical-align{
-    vertical-align: top;
-}
-
-.wd-text-soft-gray{
-    color: rgb(140,140,140);
-
-}
-
 p#article-text {
     padding: 0px;
     margin: 0px;
@@ -565,13 +219,15 @@ p#article-text {
 .wd-div-boxes-bm {
     border-left-width: thin;
     border-style: solid;
-    border-left-color: rgb(47, 51, 54);
+    border-left-color: rgb(230, 230, 230);
     border-right-width: thin;
-    border-right-color: rgb(47, 51, 54);
+    border-right-color: rgb(230, 230, 230);
     border-top-width: thin;
-    border-top-color: rgb(47, 51, 54);
+    border-top-color: rgb(230,230,230);
     border-bottom-width: thin;
-    border-bottom-color: rgb(47, 51, 54);
+    border-bottom-color: rgb(230,230,230);
+    border-radius: 5px;
+
 }
 
 .wd-div-heading-size {
@@ -626,7 +282,7 @@ p#article-text {
 .wd-3dots-gray {
     float: right;
     display: inline;
-    color: lightgray;
+    color: gray;
     padding-right: 12px;
     font-size: 30px;
     padding-top: 20px;}
@@ -662,9 +318,9 @@ p#article-text {
 }
 
 .wd-gray-icon {
-    color: lightgray;
+    color: gray;
     display: inline;
-    font-size: 16px;
+    font-size: 18px;
     padding-right: 58px;
     padding-left: 12px;
 }
@@ -765,6 +421,13 @@ p#article-text {
 }
 
 .wd-likes-font{
-    font-size: 10px;
+    font-size: 14px;
 }
 
+.wd-text-black {
+    color: black;
+}
+
+.wd-text-gray {
+    color: rgb(100, 100, 100);
+}

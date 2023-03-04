@@ -6,18 +6,19 @@ import whoArray from './who.json';
 const WhoToFollowList = () => {
     return(
         <ul className="list-group">
-            <li className="list-group-item">
-                <h3>Who to follow</h3>
+            <li className="list-group-item wd-vertical-align">
+                <h4 className="wd-color-black wd-vertical-align wd-move-down-5">Who to follow</h4>
             </li>
             {
                 whoArray.map(who =>
-                    <WhoToFollowListItem
+                    <li className="list-group-item"><WhoToFollowListItem
                         key={who._id}
-                        who={who}/>
+                        who={who}/></li>
                 )
+
             }
         </ul>
-    );
+    )
 };
 
 export default WhoToFollowList;

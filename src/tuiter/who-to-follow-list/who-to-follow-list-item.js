@@ -3,12 +3,12 @@ const WhoToFollowListItem = ({who}) => {
     return(
 
 <div>
-<   li class="list-group-item">
+
     <div class="container wd-border-none p-0 m-0">
         <div class="row wd-border-none p-0 m-0">
             <div class="col-2 wd-border-none p-0 m-0">
-                <image src={who.avatarIcon}
-                       class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></image>
+                <img src={who.avatarIcon}
+                       class="wd-who-follow-photo wd-align-left mx-0 px-0 wd-move-icon-left"></img>
             </div>
             <div class="col-7 wd-border-none mx-0 px-0">
                 <p class="wd-color-black wd-inline"><b class="wd-color-black">{who.userName}&nbsp;</b>
@@ -24,8 +24,8 @@ const WhoToFollowListItem = ({who}) => {
     </div>
 
 
-    </li>
+
 </div>
-);
+)
 };
 export default WhoToFollowListItem;
