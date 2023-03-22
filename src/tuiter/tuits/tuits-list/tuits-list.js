@@ -1,12 +1,11 @@
 import React from "react";
 import TuitsItem from "./tuits-item.js";
 import {useSelector} from "react-redux";
-import TuitsStats from "./tuits-stats";
 
 const TuitsList = () => {
     const postsArray = useSelector(state => state.tuits)
     return(
-        <ul className="list-group">
+        <ul className="list-group mt-2">
             {
                 postsArray.map(post =>
                     <TuitsItem

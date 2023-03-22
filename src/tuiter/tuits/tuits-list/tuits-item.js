@@ -1,12 +1,19 @@
 import React from "react";
 import TuitsStats from "./tuits-stats";
+import {useDispatch} from "react-redux";
+import {deleteTuit} from "../tuits-reducer";
 
 
 const TuitsItem = ({fullpost}) => {
+    const dispatch = useDispatch();
+    const deleteTuitHandler = (id) => {
+        dispatch(deleteTuit(id));
+    }
+
     return (
         <div className="wd-div-boxes-bm">
-            <i className="wd-3dots-gray wd-move-up wd-inline">&hellip;</i>
-        <div className="wd-bookmark-item wd-move-up-40">
+            <i className="fa-regular fa-circle-xmark float-end m-2 mt-4 fa-lg" onClick={() => deleteTuitHandler(fullpost._id)}></i>
+        <div className="wd-bookmark-item">
             <div className="wd-column-left">
 
                 <img src={fullpost.image}
@@ -29,7 +36,7 @@ const TuitsItem = ({fullpost}) => {
                 <TuitsStats key={fullpost._id}
                             fullpost={fullpost}/>
 
-
+            <br/>
             </div>
         </div>
         </div>
