@@ -11,14 +11,14 @@ function ProfileComponent () {
             <img src="/images/grimes.jpg" className="wd-rounded-photo mx-4" width="120px" height="120px"></img>
         </div>
                 <div className="col">
-                    <button className="btn btn-outline-dark float-end rounded-pill wd-move-up-btn">Edit profile</button>
+                    <button className="btn btn-outline-dark float-end rounded-pill mt-2">Edit profile</button>
                 </div>
 
         </div>
 
 
             <div className="row">
-                <div className="col mx-4 wd-move-up-70">
+                <div className="col mx-4 wd-move-up-40">
                     <h5 className="wd-color-black">Name</h5>
                     <p className="wd-text-gray">handle</p>
                     <p className="wd-text-black">write a bio</p>
@@ -27,7 +27,7 @@ function ProfileComponent () {
             </div>
 
 
-            <div className="row wd-text-gray wd-move-up-50 mx-3">
+            <div className="row wd-text-gray wd-move-up-40 mx-3">
                  <div className="col"><i className="fa-solid fa-location-dot"></i>&nbsp;location</div>
             <div className="col"><i className="fa-solid fa-cake-candles"></i>&nbsp;dob</div>
             <div className="col"><i className="fa-solid fa-calendar-days"></i>&nbsp;date joined</div>
