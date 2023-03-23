@@ -791,5 +791,33 @@ p#article-text {
 }
 
 textarea.form-control {
-    border: 1px solid gray;
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+    border: none;
+}
+
+div.wd-form-borders {
+    border: 1px solid rgb(110, 118, 125);
+    font-size: 12px;
+    color: gray;
+    border-radius: 10px;
+}
+
+textarea::placeholder.form-control {
+    color: rgb(50, 50, 50);
+}
+
+.wd-move-down-10 {
+    position: relative;
+    top: 10px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.wd-border-gray {
+    border: 1px solid rgb(110, 118, 125);
 }

@@ -6,11 +6,9 @@ const userSlice = createSlice({
     initialState: user,
     reducers: {
         editUser(state, action) {
-            const { id, data } = action.payload;
-            const userIndex = state.findIndex(user => user._id === id);
-            state[userIndex] = { ...state[userIndex], ...data };
-        }
-    }
+            console.log(action.payload);
+            return action.payload;
+    }}
 });
 
 export const {editUser} = userSlice.actions;
