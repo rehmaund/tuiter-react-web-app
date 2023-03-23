@@ -27,8 +27,8 @@ const SmallNavigationSidebar = () => {
         className="fa fa-bookmark">&nbsp;&nbsp;</i></a>
     <a className={`list-group-item ${active === 'lists' ? 'active' : ''}`}  id="event-target" href="../lists.html"><i
         className="fa fa-list">&nbsp;&nbsp;</i></a>
-    <a className={`list-group-item ${active === 'profile' ? 'active' : ''}`}  id="event-target" href="../profile.html"><i
-        className="fa fa-user">&nbsp;&nbsp;</i></a>
+    <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile' ? 'active' : ''}`}  id="event-target" href="../profile.html"><i
+        className="fa fa-user">&nbsp;&nbsp;</i></Link>
     <a className={`list-group-item ${active === 'more' ? 'active' : ''}`}  id="event-target" href="../more.html"><i
         className="fas fa-circle">&nbsp;&nbsp;</i></a>
 </div>

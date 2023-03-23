@@ -29,8 +29,8 @@ const NavigationSidebar = () => {
             className="fa fa-bookmark">&nbsp;&nbsp;</i>Bookmarks</a>
         <a className={`list-group-item ${active === 'lists' ? 'active' : ''}`}  id="event-target" href="../lists.html"><i
             className="fa fa-list">&nbsp;&nbsp;</i>Lists</a>
-        <a className={`list-group-item ${active === 'profile' ? 'active' : ''}`}  id="event-target" href="../profile.html"><i
-            className="fa fa-user">&nbsp;&nbsp;</i>Profile</a>
+        <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile' ? 'active' : ''}`}  id="event-target" href="../profile.html"><i
+            className="fa fa-user">&nbsp;&nbsp;</i>Profile</Link>
         <a className={`list-group-item ${active === 'more' ? 'active' : ''}`}  id="event-target" href="../more.html"><i
             className="fas fa-circle">&nbsp;&nbsp;</i>More</a>
     </div>

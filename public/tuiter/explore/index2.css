@@ -768,3 +768,24 @@ p#article-text {
     font-size: 10px;
 }
 
+.wd-rounded-photo {
+    border-radius: 200px;
+    position: relative;
+    top: -60px;
+
+
+}
+
+.wd-border-black {
+    border: thin black;
+}
+
+.wd-move-up-btn {
+    position: relative;
+    top: -100px;
+}
+
+.wd-move-up-70 {
+    position: relative;
+    top: -70px;
+}
