@@ -3,11 +3,11 @@ import React from "react";
 function ProfileComponent () {
     return(
         <div className="mt-2">
-            <img src="/images/background.jpg" max-width="100%" width="100%" height="200px"></img>
+            <img src="/images/background.jpg" width="100%" height="200px"></img>
 
 
             <div className="row">
-                <div clasName="col">
+                <div className="col">
             <img src="/images/grimes.jpg" className="wd-rounded-photo mx-4" width="120px" height="120px"></img>
         </div>
                 <div className="col">
