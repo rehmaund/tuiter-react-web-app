@@ -789,3 +789,7 @@ p#article-text {
     position: relative;
     top: -70px;
 }
+
+textarea.form-control {
+    border: 1px solid gray;
+}
