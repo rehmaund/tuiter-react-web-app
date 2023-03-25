@@ -768,12 +768,6 @@ p#article-text {
     font-size: 10px;
 }
 
-img.wd-rounded-photo {
-    border-radius: 200px;
-    position: relative;
-    top: -60px;
-
-}
 
 .wd-border-black {
     border: thin black;
@@ -819,4 +813,10 @@ textarea::placeholder.form-control {
 
 .wd-border-gray {
     border: 1px solid rgb(110, 118, 125);
+}
+
+#wd-profile-photo {
+    border-radius: 200px;
+    position: relative;
+    top: -60px;
 }
