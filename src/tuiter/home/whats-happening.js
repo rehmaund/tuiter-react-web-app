@@ -14,7 +14,7 @@ const WhatsHappening = () => {
     return (
         <div className="row wd-div-boxes-bm m-1 pt-2">
             <div className="col-auto">
-                <img src="/images/mochi2.jpg" className="wd-rounded" width={50}/>
+                <img src="/images/mochi.png" className="wd-rounded" width={50}/>
             </div>
             <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
