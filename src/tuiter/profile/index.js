@@ -12,7 +12,7 @@ function ProfileComponent () {
 
             <div className="row">
                 <div className="col">
-            <img src={userData.profilePicture} id="wd-profile-photo" className="mx-4" width="120px" height="120px"></img>
+            <img src={userData.profilePicture} id="wd-profile-photo" className="mx-4 wd-rounded-photo" width="120px" height="120px"></img>
         </div>
                 <div className="col">
                     <Link to="/tuiter/edit-profile"><button className="btn btn-outline-dark float-end rounded-pill mt-2">Edit profile</button></Link>

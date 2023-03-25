@@ -820,3 +820,9 @@ textarea::placeholder.form-control {
     position: relative;
     top: -60px;
 }
+
+img.wd-rounded-photo {
+    border-radius: 200px;
+    position: relative;
+    top: -60px;
+}
