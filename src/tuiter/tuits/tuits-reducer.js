@@ -5,7 +5,7 @@ import tuits from './tuits.json';
 const currentUser = {
     "userName": "Mochi Maunder",
     "handle": "@mochi-the-cat",
-    "image": "/images/mochi.jpg",
+    "image": "/images/mochi4.jpg",
 };
 
 const templateTuit = {
