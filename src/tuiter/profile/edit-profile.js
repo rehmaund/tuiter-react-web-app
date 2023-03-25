@@ -19,7 +19,7 @@ function EditProfileComponent() {
             "bio": newBio,
             "website": newWebsite,
             "location": newLocation,	"dateOfBirth": newDOB,	"dateJoined": "04/2023",
-            "followingCount": 340,	"followersCount": 1000000}
+            "followingCount": 340,	"followersCount": "1.4M"}
         dispatch(editUser(userNew));
     }
 
