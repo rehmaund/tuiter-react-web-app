@@ -768,11 +768,10 @@ p#article-text {
     font-size: 10px;
 }
 
-.wd-rounded-photo {
+img.wd-rounded-photo {
     border-radius: 200px;
     position: relative;
     top: -60px;
-
 
 }
 

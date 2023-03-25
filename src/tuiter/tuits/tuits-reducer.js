@@ -3,9 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 import tuits from './tuits.json';
 
 const currentUser = {
-    "userName": "Northeastern University",
-    "handle": "@northeastern",
-    "image": "/images/nu.jpg",
+    "userName": "Mochi Maunder",
+    "handle": "@mochi-the-cat",
+    "image": "/images/mochi.jpg",
 };
 
 const templateTuit = {

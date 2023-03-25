@@ -11,9 +11,6 @@ function EditProfileComponent() {
     const [newLocation, setNewLocation] = useState(userData.location);
     const [newWebsite, setNewWebsite] = useState(userData.location);
     const [newDOB, setNewDOB] = useState(userData.dateOfBirth);
-    const datesArray = newDOB.split('/');
-    const dateFormatted = `${datesArray[2]}-${datesArray[0].padStart(2, "0")}-${datesArray[1].padStart(2, "0")}`;
-    console.log(dateFormatted);
 
 
     const editUserHandler = () => {
@@ -69,7 +66,7 @@ function EditProfileComponent() {
             </div>
             <div className="form-group wd-form-borders m-2 p-2">
                 <label for="dob">Date of Birth</label>
-                <input type="date" onChange = {(event) => setNewDOB(event.target.value)} className="form-control wd-border-none" id="dob" name="dob" placeholder={dateFormatted}></input>
+                <textarea type="date" onChange = {(event) => setNewDOB(event.target.value)} className="form-control wd-border-none" id="dob" name="dob" placeholder={newDOB}></textarea>
             </div>
         </form>
             </div>

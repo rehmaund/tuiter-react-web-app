@@ -1,8 +1,8 @@
 {
   "firstName": "Mochi", "lastName": "Maunder", "handle": "@mochi-the-cat",
   "profilePicture": "/images/mochi.jpg", 	"bannerPicture": "/images/background.jpg",
-  "bio": "Cat, Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements. Yay yay tuiter!",
+  "bio": "Cat, Most Esteemed Faculty Member, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements. Yay yay tuiter!",
   "website": "youtube.com/webdevtv",
-  "location": "Boston, MA",	"dateOfBirth": "11/22/2023",	"dateJoined": "3/2023",
-  "followingCount": 340,	"followersCount": 1000000
+  "location": "Boston, MA",	"dateOfBirth": "11/27/2022",	"dateJoined": "3/2023",
+  "followingCount": 340,	"followersCount": "1.4M"
 }
