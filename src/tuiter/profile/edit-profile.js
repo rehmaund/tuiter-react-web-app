@@ -15,7 +15,7 @@ function EditProfileComponent() {
 
     const editUserHandler = () => {
         const userNew = {"firstName": newName.substring(0, newName.indexOf(' ')), "lastName": newName.substring(newName.indexOf(' ') + 1), "handle": "@mochi-the-cat",
-            "profilePicture": "/images/mochi.jpg", 	"bannerPicture": "/images/background.jpg",
+            "profilePicture": "/images/mochi4.jpg", 	"bannerPicture": "/images/background.jpg",
             "bio": newBio,
             "website": newWebsite,
             "location": newLocation,	"dateOfBirth": newDOB,	"dateJoined": "04/2023",
