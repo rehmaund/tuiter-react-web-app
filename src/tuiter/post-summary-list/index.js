@@ -18,8 +18,8 @@ const PostSummaryList = () => {
             {loading && <li className="list-group-item">Loading ...</li>}
             {
                 tuits.map(post =>
-                    <li className="list-group-item"><PostSummaryItem
-                        key={post._id} post={post}/></li>)
+                    <PostSummaryItem
+                        key={post._id} post={post}/>)
             }
         </ul>
     );

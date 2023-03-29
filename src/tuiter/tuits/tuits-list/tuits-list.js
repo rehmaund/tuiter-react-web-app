@@ -22,10 +22,10 @@ const TuitsList = () => {
             }
             {
                 tuits.map(post =>
-                    <li className="list-group-item"><TuitsItem
+                    <TuitsItem
                         key={post._id}
                         fullpost={post}
-                    /></li>
+                    />
                 )
             }
         </ul>
