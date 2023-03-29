@@ -16,7 +16,7 @@ import HomeComponent from "./home";
 import PostSummaryList from "./post-summary-list"
 import ProfileComponent from "./profile";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, user: userReducer}});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer, user: userReducer}});
 
 
 function Tuiter() {
