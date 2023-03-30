@@ -8,6 +8,17 @@ const WhatsHappening = () => {
     const dispatch = useDispatch();
     const tuitClickHandler = () => {
         const newTuit = {
+            topic: "Academics",
+            username: "Mochi Maunder",
+            handle: "mochi-the-cat",
+            time: "Now",
+            image: "/images/mochi4.jpg",
+            liked: false,
+            likes: 0,
+            retuits: 0,
+            replies: 0,
+            dislikes: 0,
+            disliked: false,
             tuit: whatsHappening
         }
         dispatch(createTuitThunk(newTuit));

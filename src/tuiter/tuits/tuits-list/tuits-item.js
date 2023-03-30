@@ -24,7 +24,7 @@ const TuitsItem = ({tuit}) => {
             </div>
 
             <div className="wd-column-right wd-white-text-block">
-                <p className="wd-text-gray"><b className="wd-text-gray">{tuit.userName}&nbsp;<i
+                <p className="wd-text-gray"><b>{tuit.username}&nbsp;<i
                     className="fa-solid fa-circle-check text-primary"></i></b> {tuit.handle} &#183; {tuit.time} </p>
 
 
