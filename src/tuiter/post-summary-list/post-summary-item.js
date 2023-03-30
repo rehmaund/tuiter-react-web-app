@@ -4,7 +4,7 @@ const PostSummaryItem= ({post}) => {
         <div className="container wd-borderless list-group-item mt-2">
             <div className="row wd-borderless align-items-center">
                 <div className="col-9 wd-color-black wd-borderless m-0">
-                    <p id="article-text" className="wd-text-gray">{post.userName}&nbsp; - {post.time}</p>
+                    <p id="article-text" className="wd-text-gray">{post.username}&nbsp; - {post.time}</p>
                     <b className="wd-color-black">{post.topic}</b>
 
                     <p className="wd-text-gray wd-font-arial">{post.title}</p>
