@@ -4,7 +4,7 @@ const NavigationSidebar = (active) => {
              <a class="list-group-item" href="/">
                     <i class="fab fa-twitter"></i></a>
          
-                <a class="list-group-item ${active === 'home' ? 'active' : ''}" id="event-target" href="../home/home.html"><i class="fas fa-house">&nbsp;&nbsp;</i>Home</a>
+                <a class="list-group-item ${active === 'home' ? 'active' : ''}" id="event-target" href="../home-old/home.html"><i class="fas fa-house">&nbsp;&nbsp;</i>Home</a>
                 <a class="list-group-item ${active === 'explore' ? 'active' : ''}" id="event-target" href="../explore/index.html"><i class="fa fa-hashtag">&nbsp;&nbsp;</i>Explore</a>
                 <a class="list-group-item ${active === 'notifications' ? 'active' : ''}" id="event-target" href="../notifications.html"><i class="fa fa-bell">&nbsp;&nbsp;</i>Notifications</a>
                 <a class="list-group-item ${active === 'messages' ? 'active' : ''}" id="event-target" href="../messages.html"><i class="fa fa-envelope"">&nbsp;&nbsp;</i>Messages</a>
