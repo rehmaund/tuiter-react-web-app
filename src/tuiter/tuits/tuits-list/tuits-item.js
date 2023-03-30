@@ -5,6 +5,7 @@ import {deleteTuitThunk} from "../../../services/tuits-thunks";
 
 
 const TuitsItem = ({tuit}) => {
+    console.log(tuit);
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
@@ -34,7 +35,7 @@ const TuitsItem = ({tuit}) => {
                 <br/>
 
                 <TuitsStats key={tuit._id}
-                            fullpost={tuit}/>
+                            tuit={tuit}/>
 
             <br/>
             </div>
