@@ -10,7 +10,6 @@ const TuitsItem = ({tuit}) => {
     const deleteTuitHandler = (id) => {
         dispatch(deleteTuitThunk(id));
     }
-
     return (
         <div className="wd-div-boxes-bm">
             <i className="fa-regular fa-circle-xmark float-end m-2 mt-4 fa-lg" onClick={() => deleteTuitHandler(tuit._id)}></i>
